@@ -1,23 +1,18 @@
-require 'formula'
+# Documentation: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Formula-Cookbook.md
+#                /usr/local/Library/Contributions/example-formula.rb
+# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
 class Node < Formula
-  homepage 'http://github.com/arpg/Node'
-#  head "https://github.com/arpg/Node.git", :branch => "xxx"
-  head "https://github.com/arpg/Node.git"
+  homepage "https://github.com/arpg/Node"
+  url "https://github.com/arpg/Node/archive/node-2.0.tar.gz"
+  sha1 ""
 
-  head do
-    url "https://github.com/arpg/Node.git"
-    depends_on "cmake" => :build 
-  end
-
-#  depends_on "zeromqpp"
-#  depends_on "zeromq" => "with-pgm"
-#  depends_on "protobuf"
+  depends_on "cmake" => :build
+  depends_on "protobuf"
 
   def install
+    # ENV.deparallelize  # if your formula fails when building in parallel
     system "cmake", ".", *std_cmake_args, "-DEXPORT_Node=false"
-    system "make", "install"
+    system "cmake", ".", *std_cmake_args
   end
 end
-__END__
-
