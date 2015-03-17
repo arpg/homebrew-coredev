@@ -9,6 +9,9 @@ class Node < Formula
 
   depends_on "cmake" => :build
   depends_on "protobuf"
+  depends_on "zmqpp"
+  depends_on "gflags"
+  depends_on "glog"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
