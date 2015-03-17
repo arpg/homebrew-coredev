@@ -7,7 +7,7 @@ class Zmqpp < Formula
   url "https://github.com/arpg/zmqpp/archive/zmqpp-dev.tar.gz"
   sha1 "69c5a99dbd51724c7ae1caadfbea402ce114db9f"
 
-  # depends_on "cmake" => :build
+  depends_on "cmake" => :build
   depends_on "zeromq" 
 
   def install
