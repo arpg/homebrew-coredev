@@ -5,7 +5,7 @@
 class Node < Formula
   homepage "https://github.com/arpg/Node"
   url "https://github.com/arpg/Node/archive/node-2.0.tar.gz"
-  sha1 "9d1693e338c2fb003b4bf3c3fb971a8200911331f2fd8edb26c0abdfc1c598b2"
+  sha1 "ea9b151ac9f0afd584a2680db77bd4828ef99357"
 
   depends_on "cmake" => :build
   depends_on "protobuf"
