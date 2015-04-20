@@ -6,7 +6,9 @@ class Osxglut < Formula
 #  depends_on "cmake" => :build
 
   def install
-    system "make"
+    system "xcodebuild", "install"
+    system "sudo", "ditto", "/tmp/GLUT_External.dst/System/Library/Frameworks/GLUT.framework", "/System/Library/Frameworks/GLUT.framework"
+    system "ranlib", "libForeground.a"
   end
 end
 
