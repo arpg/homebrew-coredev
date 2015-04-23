@@ -10,7 +10,7 @@ class Node < Formula
 
   depends_on "cmake" => :build
   depends_on "protobuf"
-#  depends_on "zmqpp"
+  depends_on "zmqpp"
   depends_on "gflags"
   depends_on "glog"
 
