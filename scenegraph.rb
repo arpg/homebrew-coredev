@@ -17,7 +17,6 @@ class Scenegraph < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     system "cmake", ".", *std_cmake_args, "-DCMAKE_BUILD_TYPE=Release"
-    system "make"
     system "make", "install"
   end
 end
