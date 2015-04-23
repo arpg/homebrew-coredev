@@ -17,6 +17,7 @@ class Hal < Formula
   depends_on "calibu"
   depends_on "node"
   depends_on "pangolin"
+  depends_on "scenegraph"
 #  depends_on "osxglut"
 
   def install
