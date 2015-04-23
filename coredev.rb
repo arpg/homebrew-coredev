@@ -8,7 +8,7 @@ class CoreDev < Formula
 #  sha1 "ea9b151ac9f0afd584a2680db77bd4828ef99357"
   head "https://github.com/arpg/CoreDev.git", :branch => "master"
 
-#  depends_on "cmake" => :build
+  depends_on "cmake" => :build
   depends_on "protobuf"
   depends_on "zmqpp"
   depends_on "gflags"
