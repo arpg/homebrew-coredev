@@ -11,6 +11,7 @@ class Vicalib < Formula
   depends_on "cmake" => :build
   depends_on "eigen"
   depends_on "hal"
+  depends_on "sophus"
   depends_on "calibu"
   depends_on "cvars"
   depends_on "pangolin"
@@ -20,7 +21,6 @@ class Vicalib < Formula
 
   def install
     system "cmake", ".", *std_cmake_args, "-DCMAKE_BUILD_TYPE=Release"
-    system "make"
     system "make", "install"
   end
 end
