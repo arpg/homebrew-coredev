@@ -8,7 +8,7 @@ class Scenegraph < Formula
 #  sha1 "ea9b151ac9f0afd584a2680db77bd4828ef99357"
   head "https://github.com/arpg/SceneGraph.git", :branch => "fix/std_shared_ptrs"
 
-  depends_on "cmake" => :build
+#  depends_on "cmake" => :build
   depends_on "eigen"
   depends_on "cvars"
   depends_on "assimp"

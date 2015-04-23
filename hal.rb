@@ -8,7 +8,7 @@ class Hal < Formula
 #  sha1 "ea9b151ac9f0afd584a2680db77bd4828ef99357"
   head "https://github.com/arpg/HAL.git", :branch => "feature/crtp_extensions"
 
-  depends_on "cmake" => :build
+#  depends_on "cmake" => :build
   depends_on "gflags"
   depends_on "glog"
   depends_on "eigen"
