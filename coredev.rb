@@ -13,7 +13,7 @@ class CoreDev < Formula
   depends_on "zmqpp"
   depends_on "gflags"
   depends_on "glog"
-  depends_on "node"
+  depends_on "arpg/node"
   depends_on "calibu"
   depends_on "hal"
   depends_on "scenegraph"
