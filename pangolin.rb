@@ -10,6 +10,7 @@ class Pangolin < Formula
 
   depends_on "cmake" => :build
   depends_on "eigen"
+  depends_on "glew"
   depends_on "cvars"
 #  depends_on "osxglut"
 
