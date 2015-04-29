@@ -16,7 +16,7 @@ class Vicalib < Formula
   depends_on "sophus"
   depends_on "calibu"
   depends_on "pangolin"
-  depends_on "ceres-solver"
+  depends_on "arpg/coredev/ceres-solver"
   depends_on "hal"
 
   def install
