@@ -13,6 +13,7 @@ class Scenegraph < Formula
   depends_on "glew"
   depends_on "cvars"
   depends_on "assimp"
+  depends_on "pangolin"
 #  depends_on "osxglut"
 
   def install
