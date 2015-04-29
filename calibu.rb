@@ -14,7 +14,7 @@ class Calibu < Formula
   depends_on "eigen"
   depends_on "cvars"
   depends_on "sophus"
-  depends_on "ceres-solver"
+  depends_on "arpg/coredev/ceres-solver"
 
   def install
     system "cmake", ".", *std_cmake_args, "-DCMAKE_BUILD_TYPE=Release"
