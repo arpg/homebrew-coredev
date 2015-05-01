@@ -6,7 +6,7 @@ class Hal < Formula
   homepage "https://github.com/arpg/hal"
 #  url "https://github.com/arpg/Node/archive/node-2.0.tar.gz"
 #  sha1 "ea9b151ac9f0afd584a2680db77bd4828ef99357"
-  head "https://github.com/arpg/HAL.git", :branch => "fix/openni"
+  head "https://github.com/arpg/HAL.git", :branch => "master"
 
   depends_on "cmake" => :build
   depends_on "gflags"
