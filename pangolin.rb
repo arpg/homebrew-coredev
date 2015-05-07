@@ -9,6 +9,8 @@ class Pangolin < Formula
   head "https://github.com/arpg/Pangolin.git", :branch => "master"
 
   depends_on "cmake" => :build
+  depends_on "openni"
+  depends_on "openni2"
   depends_on "eigen"
   depends_on "glew"
   depends_on "cvars"
