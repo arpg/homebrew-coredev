@@ -13,6 +13,8 @@ class Hal < Formula
   depends_on "glog"
   depends_on "eigen"
   depends_on "cvars"
+  depends_on "openni"
+  depends_on "openni2"
   depends_on "sophus"
   depends_on "calibu"
   depends_on "arpg/coredev/node"
