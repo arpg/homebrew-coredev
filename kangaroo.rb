@@ -2,20 +2,15 @@
 #                /usr/local/Library/Contributions/example-formula.rb
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class Hal < Formula
-  homepage "https://github.com/arpg/hal"
-  head "https://github.com/arpg/HAL.git", :branch => "master"
+class Kangaroo < Formula
+  homepage "https://github.com/arpg/Kangaroo"
+  head "https://github.com/arpg/Kangaroo.git", :branch => "master"
 
   depends_on "cmake" => :build
-  depends_on "gflags"
-  depends_on "glog"
   depends_on "eigen"
   depends_on "cvars"
-  depends_on "openni"
-  depends_on "openni2"
   depends_on "sophus"
   depends_on "calibu"
-  depends_on "arpg/node"
   depends_on "pangolin"
   depends_on "scenegraph"
 
@@ -26,3 +21,4 @@ class Hal < Formula
     system "make", "install"
   end
 end
+
