@@ -17,7 +17,6 @@ class Hal < Formula
   depends_on "calibu"
   depends_on "arpg/coredev/node"
   depends_on "pangolin"
-  depends_on "scenegraph"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
