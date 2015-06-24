@@ -14,6 +14,7 @@ class Calibu < Formula
   depends_on "eigen"
   depends_on "cvars"
   depends_on "sophus"
+  depends_on "opencv"
   depends_on "arpg/coredev/ceres-solver"
 
   def install

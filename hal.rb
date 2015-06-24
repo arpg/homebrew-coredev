@@ -14,6 +14,7 @@ class Hal < Formula
   depends_on "openni"
   depends_on "openni2"
   depends_on "sophus"
+  depends_on "opencv"
   depends_on "calibu"
   depends_on "arpg/coredev/node"
   depends_on "pangolin"
