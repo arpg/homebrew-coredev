@@ -8,7 +8,7 @@ class Zmqpp < Formula
   sha1 "69c5a99dbd51724c7ae1caadfbea402ce114db9f"
 
   depends_on "homebrew/versions/cmake28" => :build 
-  depends_on "zeromq" => "build-from-source"
+  depends_on "zeromq"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
