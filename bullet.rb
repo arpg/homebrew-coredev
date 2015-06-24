@@ -5,7 +5,7 @@ class Bullet < Formula
   url 'https://github.com/bulletphysics/bullet3/archive/2.83.4.tar.gz'
   sha1 '96b8d18ebecc87e749247702d4022fcc3385ffd6'
   
-  depends_on 'cmake' => :build
+  depends_on "homebrew/versions/cmake28" => :build
 
   def suite_sparse_options
     Tab.for_formula(Formula["suite-sparse"])

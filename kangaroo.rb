@@ -6,7 +6,8 @@ class Kangaroo < Formula
   homepage "https://github.com/arpg/Kangaroo"
   head "https://github.com/arpg/Kangaroo.git", :branch => "master"
 
-  depends_on "cmake" => :build
+  depends_on "homebrew/versions/cmake28" => :build
+
   depends_on "eigen"
   depends_on "cvars"
   depends_on "sophus"

@@ -8,7 +8,9 @@ class Scenegraph < Formula
 #  sha1 "ea9b151ac9f0afd584a2680db77bd4828ef99357"
   head "https://github.com/arpg/SceneGraph.git", :branch => "master"
 
-  depends_on "cmake" => :build
+
+  depends_on "homebrew/versions/cmake28" => :build
+
   depends_on "eigen"
   depends_on "glew"
   depends_on "cvars"

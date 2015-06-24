@@ -6,7 +6,8 @@ class Hal < Formula
   homepage "https://github.com/arpg/hal"
   head "https://github.com/arpg/HAL.git", :branch => "master"
 
-  depends_on "cmake" => :build
+  depends_on "homebrew/versions/cmake28" => :build
+
   depends_on "gflags"
   depends_on "glog"
   depends_on "eigen"
